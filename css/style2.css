@@ -1,0 +1,31 @@
+body {
+    background: url('../images/kathakali.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.nav-link{
+    color: white;
+}
+section{
+    padding: 5%;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+}
+.loginform{
+    float: right;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: center;
+    color: white;
+}
+.row{
+    padding-top: 10px;
+}
+#signuplink{
+    color: white;
+}
