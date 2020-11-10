@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the page -->
     <title>Login page</title>
+        <!-- icon in the title -->
+      <link rel="icon" href="./images/iconkerala.jpg" type="image/gif" sizes="16x16">
       <!-- Custom css file linking -->
       <link rel="stylesheet" href="css/style2.css" type="text/css">
       <!-- Bootstrap CDN linking -->
@@ -12,10 +15,11 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
 </head>
 <body>
+  <div class="container-fluid bg">
     <header style="position: fixed; width: 100%; z-index: 1;">
         <!-- Navbar starts -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="index.html">
                 <img id="logo" src="./images/kisspng-logo-god-s-own-country-gavi-kerala-tourism-in-ker-classicvoy-5b7cc907800470.1706342615349045835244.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html"><b>Home </b></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="signup.html">Sign-Up</a>
+                  <a class="nav-link" href="signup.html"><b>Sign-Up</b></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Login</a>
+                  <a class="nav-link" href="#"><b>Login </b><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link " href="./districts.html"><b>District</b></a>
                 </li>
               </ul>
             </div>
@@ -70,16 +74,19 @@
             </div>
             <div class="row">
               <div class="col-lg-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary btn-block">Sign in</button>
               </div>
             </div>
           <div class="row">
-            <div class="col-lg-4">
-                <a class="dropdown-item" id="signuplink" href="signup.html">New around here? Sign up</a>
-                 <a class="dropdown-item" id="signuplink" href="#">Forgot password?</a>
+            <div class="col-lg-12">
+                <a class="" id="signuplink" href="signup.html">New around here? Sign up</a>
+                <br>
+                 <a class="" id="signuplink" href="#">Forgot password?</a>
           </div>
           </div>
           </form>
       </section>
+      <!-- Login form ends -->
+      </div>
 </body>
 </html>
