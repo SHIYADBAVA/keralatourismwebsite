@@ -3,10 +3,12 @@
     padding: 0;
 
 }
+/* logo */
 #logo{
     width: 100px;
     height: 50px;
 }
+/* body part */
 body {
     background: url('../images/Kathakali-Dance-Form-India\ \(1\).jpg') no-repeat center center fixed;
     -webkit-background-size: cover; 
@@ -14,7 +16,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
-}
 #navbar{
     background-color:transparent;
 }
@@ -22,16 +23,18 @@ body {
     color: white;
 }
 section{
-    padding: 5%;
+    padding-top: 5%;
     color: white;
+    float: right;
 }
-#main{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/kathakaliface.jpg);
-    background-size: 80%;
+.descrip{
+    padding-top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#carouselExampleCaptions{
-    width: auto;
-} 
+#wel{
+    text-align: justify;
+}
+ #l{
+     align-items: center;
+ }
 
