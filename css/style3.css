@@ -14,6 +14,9 @@
 .nav-link{
     color: white;
 }
+#navmenu{
+    float: right;
+}
 /* style of body */
 body {
     background: url('../images/Kathakali-Dance-Form-India\ \(1\).jpg') no-repeat center center fixed;
