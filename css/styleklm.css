@@ -8,6 +8,9 @@
     height: 50px;
 }
 /* style of navbar */
+#navbar{
+    background-color: transparent;
+}
 .nav-link{
     color: white;
 }
@@ -29,7 +32,7 @@ body{
 .para{
     color: green;
 }
-
+/* List of Tourist Attractions Starts */
 #Touristspot{
     color: green;
 }
