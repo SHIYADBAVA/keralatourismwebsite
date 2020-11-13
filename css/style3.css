@@ -34,6 +34,10 @@ section{
     height: 200px;
     align-items: center;
 }
+.card-pic2{
+    width: 500px;
+    height: 250px;
+}
 /* card text */
 .distname{
     color: green;
