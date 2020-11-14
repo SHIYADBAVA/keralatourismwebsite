@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* logo */
+#logo{
+    width: 135px;
+    height: 50px;
+}
+/* body part */
+body {
+    background: url('../images/Kathakali-Dance-Form-India\ \(1\).jpg') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.navbar{
+    background-color:transparent;
+}
+.nav-link{
+    color: white;
+}
+section{
+    padding-top: 5%;
+    color: white;
+    float: right;
+}
+.descrip{
+    padding-top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.descrip2{
+    padding-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wel{
+    text-align: justify;
+}
+ #l{
+     align-items: center;
+ }
+ /* style of footer */
+.footer{
+    margin-top: 20px;
+    padding-top: 5px;
+    height: auto;
+    width: 100%;
+}
+
