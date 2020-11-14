@@ -35,8 +35,9 @@ section{
     align-items: center;
 }
 .card-pic2{
-    width: 500px;
+    width: 660px;
     height: 250px;
+    align-items: center;
 }
 /* card text */
 .distname{

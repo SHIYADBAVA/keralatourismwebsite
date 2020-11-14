@@ -31,10 +31,21 @@ section{
     padding-top: 30%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.descrip2{
+    padding-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #wel{
     text-align: justify;
 }
  #l{
      align-items: center;
  }
+ /* style of footer */
+.footer{
+    margin-top: 20px;
+    padding-top: 5px;
+    height: auto;
+    width: 100%;
+}
 
