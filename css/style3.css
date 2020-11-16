@@ -39,6 +39,10 @@ section{
     height: 250px;
     align-items: center;
 }
+.card:hover{
+    transform: scale(1.05);
+    border-color: orange;
+}
 /* card text */
 .distname{
     color: green;
