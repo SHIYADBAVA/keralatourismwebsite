@@ -40,6 +40,10 @@ body{
     width: 460px;
     height: 200px;
 }
+.card:hover{
+    transform: scale(1.05);
+    border-color: orange;
+}
 
 /* footer */
 footer{
