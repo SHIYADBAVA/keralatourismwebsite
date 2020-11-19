@@ -22,7 +22,7 @@ body {
 section{
     padding: 5%;
 }
-.signupform{
+.form{
     float: right;
     border: 1px solid;
     border-radius: 3px;
@@ -30,6 +30,8 @@ section{
     text-align: center;
     color: white;
 }
+
+
 .row{
     padding-top: 10px;
 }
