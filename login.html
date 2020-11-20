@@ -32,9 +32,6 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="index.html"><b>Home</b></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="signup.html"><b>Sign-Up</b></a>
-          </li>
           <li class="nav-item active">
             <a class="nav-link text-white" href="login.html"><b>Login</b><span class="sr-only">(current)</span></a>
           </li>
@@ -54,24 +51,25 @@
       <!-- Login Form starts -->
       <section>
         <div class="container">
-          <form action="" class="loginform">
+          <form action="districts.html" class="loginform">
             <h1>Log-In</h1>
             <div class="row">
               <div class="col-lg-12">
               <label for="exampleDropdownFormEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
               <label for="exampleDropdownFormPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+              <div id="password-strength-status"></div>
             </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
             <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck" required>
               <label class="form-check-label" for="dropdownCheck">
                 Remember me
               </label>
@@ -80,7 +78,7 @@
             </div>
             <div class="row">
               <div class="col-lg-12">
-            <button type="submit" class="btn btn-primary btn-block"><b>Sign in</button>
+            <button type="submit" class="btn btn-primary btn-block" onclick="return passwordvalidate();"><b>Sign in</button>
               </div>
             </div>
           <div class="row">
@@ -93,5 +91,18 @@
           </form>
       </section>
       <!-- Login form ends -->
+      <script>
+        function passwordvalidate(){
+          var password = document.getElementById("password");
+          if ((password.value).length >= 8)
+          {
+            return true;
+        }
+        else{
+          alert("Password should be atleast 8 characters!");
+            return false;
+        }
+      }
+      </script>
 </body>
 </html>
